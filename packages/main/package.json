@@ -2,10 +2,6 @@
     "name": "@doar/main",
     "version": "0.1.0",
     "private": true,
-    "engines": {
-        "node": ">=18.18.0 <19.0.0"
-      },
-    
     "dependencies": {
         "@doar/components": "^0.1.0",
         "@doar/shared": "^1.0.0",
