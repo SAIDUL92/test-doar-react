@@ -5,8 +5,10 @@
     "packages/*"
   ],
   "engines": {
-    "node": "16.14.0"
+    "node": ">=18.18.0 <19.0.0"
   },
+
+
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "postbootstrap": "yarn build:components",
